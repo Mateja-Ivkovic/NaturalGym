@@ -1,0 +1,390 @@
+﻿{
+  "defaultLanguage": "sr",
+  "languages": {
+    "sr": "Srpski",
+    "en": "English"
+  },
+  "translations": {
+    "sr": {
+      "Početna": "Početna",
+      "O nama": "O nama",
+      "Usluge": "Usluge",
+      "Kontakt": "Kontakt",
+
+      "Personalni trening": "Personalni trening",
+      "Grupni treninzi": "Grupni treninzi",
+      "Fitness program": "Fitness program",
+      "Plan ishrane": "Plan ishrane",
+
+      "☀ Svetla tema": "☀ Svetla tema",
+      "🌙 Tamna tema": "🌙 Tamna tema",
+
+      "DOBRODOŠLI U FITNESS KLUB NATURAL": "DOBRODOŠLI U FITNESS KLUB NATURAL",
+      "IZGRADI": "IZGRADI",
+      "SVOJU SNAGU.": "SVOJU SNAGU.",
+
+      "Moderan fitness klub za sve koji žele da unaprede svoje telo, snagu i kondiciju.": "Moderan fitness klub za sve koji žele da unaprede svoje telo, snagu i kondiciju.",
+
+      "Naši programi": "Naši programi",
+      "Saznaj više": "Saznaj više",
+
+      "ZAŠTO FITNESS KLUB NATURAL?": "ZAŠTO FITNESS KLUB NATURAL?",
+      "VIŠE OD": "VIŠE OD",
+      "FITNESS KLUBA.": "FITNESS KLUBA.",
+
+      "Moderna oprema": "Moderna oprema",
+      "Veliki izbor kvalitetne opreme za trening snage, kondicije i oblikovanja tela.": "Veliki izbor kvalitetne opreme za trening snage, kondicije i oblikovanja tela.",
+
+      "Stručni treneri": "Stručni treneri",
+      "Naši treneri pomažu članovima da pravilno i bezbedno ostvare svoje ciljeve.": "Naši treneri pomažu članovima da pravilno i bezbedno ostvare svoje ciljeve.",
+
+      "Prijatna atmosfera": "Prijatna atmosfera",
+      "Stvorili smo prostor u kojem svako može da trenira, napreduje i oseća se dobro.": "Stvorili smo prostor u kojem svako može da trenira, napreduje i oseća se dobro.",
+
+      "SPREMAN ZA SLEDEĆI KORAK?": "SPREMAN ZA SLEDEĆI KORAK?",
+      "TVOJ TRENING.": "TVOJ TRENING.",
+      "TVOJA PRAVILA.": "TVOJA PRAVILA.",
+
+      "Kontaktiraj nas": "Kontaktiraj nas",
+      "Izgradi snagu. Unapredi sebe.": "Izgradi snagu. Unapredi sebe.",
+
+      "© 2026 Fitness klub Natural. Sva prava zadržana.": "© 2026 Fitness klub Natural. Sva prava zadržana.",
+      "© 2026 Fitnes klub Natural. Sva prava zadržana.": "© 2026 Fitnes klub Natural. Sva prava zadržana.",
+
+      "KONTAKTIRAJTE NAS": "KONTAKTIRAJTE NAS",
+      "BUDIMO U": "BUDIMO U",
+      "KONTAKTU.": "KONTAKTU.",
+
+      "Imate pitanje? Želite da se učlanite? Javite nam se.": "Imate pitanje? Želite da se učlanite? Javite nam se.",
+
+      "INFORMACIJE": "INFORMACIJE",
+      "PRONAĐITE": "PRONAĐITE",
+      "NAS.": "NAS.",
+
+      "Adresa": "Adresa",
+      "Telefon": "Telefon",
+      "Broj telefona": "Broj telefona",
+      "Email": "Email",
+      "Radno vreme": "Radno vreme",
+      "Ponedeljak – Subota": "Ponedeljak – Subota",
+
+      "MAPA": "MAPA",
+
+      "POŠALJITE PORUKU": "POŠALJITE PORUKU",
+      "JAVITE": "JAVITE",
+      "NAM SE.": "NAM SE.",
+
+      "Ime i prezime": "Ime i prezime",
+      "Email adresa": "Email adresa",
+      "Poruka": "Poruka",
+      "Pošalji poruku": "Pošalji poruku",
+
+      "Unesite ime i prezime": "Unesite ime i prezime",
+      "Unesite email adresu": "Unesite email adresu",
+      "Unesite broj telefona": "Unesite broj telefona",
+      "Unesite svoju poruku": "Unesite svoju poruku",
+
+      "UPOZNAJTE NAS": "UPOZNAJTE NAS",
+      "O": "O",
+      "FITNESS KLUBU NATURAL": "FITNESS KLUBU NATURAL",
+
+      "Mesto gde trening postaje način života.": "Mesto gde trening postaje način života.",
+
+      "NAŠA PRIČA": "NAŠA PRIČA",
+      "VIŠE OD": "VIŠE OD",
+      "OBIČNOG FITNESS KLUBA.": "OBIČNOG FITNESS KLUBA.",
+
+      "Fitness klub Natural je moderan fitness klub namenjen svima koji žele da unaprede svoje fizičke sposobnosti, zdravlje i samopouzdanje.": "Fitness klub Natural je moderan fitness klub namenjen svima koji žele da unaprede svoje fizičke sposobnosti, zdravlje i samopouzdanje.",
+
+      "Naš cilj je da svakom članu pružimo kvalitetne uslove za trening, savremenu opremu i podršku tokom celog procesa napretka.": "Naš cilj je da svakom članu pružimo kvalitetne uslove za trening, savremenu opremu i podršku tokom celog procesa napretka.",
+
+      "Bez obzira da li tek počinjete da trenirate ili već imate iskustvo, Fitness klub Natural je mesto gde možete postaviti nove ciljeve i raditi na njihovom ostvarivanju.": "Bez obzira da li tek počinjete da trenirate ili već imate iskustvo, Fitness klub Natural je mesto gde možete postaviti nove ciljeve i raditi na njihovom ostvarivanju.",
+
+      "GODINA POSVEĆENOSTI": "GODINA POSVEĆENOSTI",
+      "VREDNOSTI": "VREDNOSTI",
+      "NAŠE VREDNOSTI": "NAŠE VREDNOSTI",
+
+      "ZAŠTO": "ZAŠTO",
+      "MI?": "MI?",
+
+      "Disciplina": "Disciplina",
+      "Verujemo da se pravi rezultati postižu doslednošću i svakodnevnim radom.": "Verujemo da se pravi rezultati postižu doslednošću i svakodnevnim radom.",
+
+      "Napredak": "Napredak",
+      "Svaki trening je prilika da postanete malo bolja verzija sebe.": "Svaki trening je prilika da postanete malo bolja verzija sebe.",
+
+      "Zajednica": "Zajednica",
+      "Gradimo pozitivno okruženje u kojem članovi motivišu jedni druge.": "Gradimo pozitivno okruženje u kojem članovi motivišu jedni druge.",
+
+      "TRENERI": "TRENERI",
+      "NAŠ TIM": "NAŠ TIM",
+      "UPOZNAJTE": "UPOZNAJTE",
+      "NAŠE TRENERE.": "NAŠE TRENERE.",
+
+      "Marko Petrović": "Marko Petrović",
+      "Personalni trener": "Personalni trener",
+      "Fitness trener": "Fitness trener",
+      "Group Fitness trener": "Group Fitness trener",
+
+      "PRETHODNI TRENER": "PRETHODNI TRENER",
+      "SLEDEĆI TRENER": "SLEDEĆI TRENER",
+      "Prethodni trener": "Prethodni trener",
+      "Sledeći trener": "Sledeći trener",
+
+      "Marko je personalni trener specijalizovan za individualne treninge, razvoj snage i pravilnu tehniku izvođenja vežbi.": "Marko je personalni trener specijalizovan za individualne treninge, razvoj snage i pravilnu tehniku izvođenja vežbi.",
+
+      "NAŠ RAD": "NAŠ RAD",
+      "POGLEDAJTE": "POGLEDAJTE",
+      "NAŠE USPEHE.": "NAŠE USPEHE.",
+
+      "NAŠI USPESI": "NAŠI USPESI",
+      "NAŠE REZULTATE.": "NAŠE REZULTATE.",
+
+      "Pogledajte uspehe, rezultate i atmosferu u našem fitness klubu.": "Pogledajte uspehe, rezultate i atmosferu u našem fitness klubu.",
+
+      "Pogledajte na YouTube-u": "Pogledajte na YouTube-u",
+
+      "Vaš pregledač ne podržava video.": "Vaš pregledač ne podržava video.",
+
+      "Naše usluge": "Naše usluge",
+      "Cenovnik": "Cenovnik",
+
+      "NAŠE USLUGE": "NAŠE USLUGE",
+      "TRENIRAJ": "TRENIRAJ",
+      "PAMETNIJE.": "PAMETNIJE.",
+      "Izaberi program koji odgovara tvojim ciljevima i započni svoj put ka boljoj formi.": "Izaberi program koji odgovara tvojim ciljevima i započni svoj put ka boljoj formi.",
+
+      "ŠTA NUDIMO": "ŠTA NUDIMO",
+      "NAŠE": "NAŠE",
+      "USLUGE.": "USLUGE.",
+
+      "Individualni trening prilagođen tvojim ciljevima, kondiciji i nivou iskustva.": "Individualni trening prilagođen tvojim ciljevima, kondiciji i nivou iskustva.",
+
+      "Treniraj u motivišućoj atmosferi uz stručno vođenje i dobar timski duh.": "Treniraj u motivišućoj atmosferi uz stručno vođenje i dobar timski duh.",
+
+      "Program treninga namenjen razvoju snage, kondicije i izgradnji zdravih navika.": "Program treninga namenjen razvoju snage, kondicije i izgradnji zdravih navika.",
+
+      "Osnovne smernice za pravilnu ishranu koje mogu pomoći u ostvarivanju tvojih ciljeva.": "Osnovne smernice za pravilnu ishranu koje mogu pomoći u ostvarivanju tvojih ciljeva.",
+
+      "CENOVNIK": "CENOVNIK",
+      "POGLEDAJ NAŠ": "POGLEDAJ NAŠ",
+      "POGLEDAJ NAŠ CENOVNIK.": "POGLEDAJ NAŠ CENOVNIK.",
+      "Preuzmite naš aktuelni cenovnik u TXT formatu.": "Preuzmite naš aktuelni cenovnik u TXT formatu.",
+      "Preuzmi cenovnik (TXT)": "Preuzmi cenovnik (TXT)",
+
+      "01 / PERSONALNI TRENING": "01 / PERSONALNI TRENING",
+      "TRENING": "TRENING",
+      "PO TVOJOJ MERI.": "PO TVOJOJ MERI.",
+      "Personalni trening predstavlja individualni rad sa trenerom koji program treninga prilagođava tvojim ciljevima, mogućnostima i nivou iskustva.": "Personalni trening predstavlja individualni rad sa trenerom koji program treninga prilagođava tvojim ciljevima, mogućnostima i nivou iskustva.",
+
+      "02 / GRUPNI TRENINZI": "02 / GRUPNI TRENINZI",
+      "ZAJEDNO.": "ZAJEDNO.",
+      "Grupni treninzi pružaju mogućnost da treniraš u pozitivnoj i motivišućoj atmosferi uz stručno vođenje trenera.": "Grupni treninzi pružaju mogućnost da treniraš u pozitivnoj i motivišućoj atmosferi uz stručno vođenje trenera.",
+
+      "03 / FITNESS PROGRAM": "03 / FITNESS PROGRAM",
+      "POSTANI": "POSTANI",
+      "SNAŽNIJI.": "SNAŽNIJI.",
+      "Fitness program je namenjen razvoju snage, kondicije i pravilnih trening navika kroz planski pristup.": "Fitness program je namenjen razvoju snage, kondicije i pravilnih trening navika kroz planski pristup.",
+
+      "04 / ISHRANA": "04 / ISHRANA",
+      "ISHRANA": "ISHRANA",
+      "ZA CILJ.": "ZA CILJ.",
+      "Pravilna ishrana predstavlja važan deo napretka. Dobijate osnovne smernice koje mogu pomoći da lakše ostvarite svoje fitness ciljeve.": "Pravilna ishrana predstavlja važan deo napretka. Dobijate osnovne smernice koje mogu pomoći da lakše ostvarite svoje fitness ciljeve.",
+
+      "SPREMAN SI?": "SPREMAN SI?",
+      "TVOJ CILJ.": "TVOJ CILJ.",
+      "NAŠA PODRŠKA.": "NAŠA PODRŠKA."
+    },
+
+    "en": {
+      "Početna": "Home",
+      "O nama": "About Us",
+      "Usluge": "Services",
+      "Kontakt": "Contact",
+
+      "Personalni trening": "Personal Training",
+      "Grupni treninzi": "Group Training",
+      "Fitness program": "Fitness Program",
+      "Plan ishrane": "Nutrition Plan",
+
+      "☀ Svetla tema": "☀ Light Theme",
+      "🌙 Tamna tema": "🌙 Dark Theme",
+
+      "DOBRODOŠLI U FITNESS KLUB NATURAL": "WELCOME TO FITNESS CLUB NATURAL",
+      "IZGRADI": "BUILD",
+      "SVOJU SNAGU.": "YOUR STRENGTH.",
+
+      "Moderan fitness klub za sve koji žele da unaprede svoje telo, snagu i kondiciju.": "A modern fitness club for everyone who wants to improve their body, strength and fitness.",
+
+      "Naši programi": "Our Programs",
+      "Saznaj više": "Learn More",
+
+      "ZAŠTO FITNESS KLUB NATURAL?": "WHY FITNESS CLUB NATURAL?",
+      "VIŠE OD": "MORE THAN",
+      "FITNESS KLUBA.": "A FITNESS CLUB.",
+
+      "Moderna oprema": "Modern Equipment",
+      "Veliki izbor kvalitetne opreme za trening snage, kondicije i oblikovanja tela.": "A wide selection of quality equipment for strength, fitness and body shaping.",
+
+      "Stručni treneri": "Professional Trainers",
+      "Naši treneri pomažu članovima da pravilno i bezbedno ostvare svoje ciljeve.": "Our trainers help members achieve their goals safely and correctly.",
+
+      "Prijatna atmosfera": "Friendly Atmosphere",
+      "Stvorili smo prostor u kojem svako može da trenira, napreduje i oseća se dobro.": "We have created a space where everyone can train, improve and feel comfortable.",
+
+      "SPREMAN ZA SLEDEĆI KORAK?": "READY FOR THE NEXT STEP?",
+      "TVOJ TRENING.": "YOUR WORKOUT.",
+      "TVOJA PRAVILA.": "YOUR RULES.",
+
+      "Kontaktiraj nas": "Contact Us",
+      "Izgradi snagu. Unapredi sebe.": "Build Strength. Improve Yourself.",
+
+      "© 2026 Fitness klub Natural. Sva prava zadržana.": "© 2026 Fitness Club Natural. All Rights Reserved.",
+      "© 2026 Fitnes klub Natural. Sva prava zadržana.": "© 2026 Fitness Club Natural. All Rights Reserved.",
+
+      "KONTAKTIRAJTE NAS": "CONTACT US",
+      "BUDIMO U": "LET'S STAY IN",
+      "KONTAKTU.": "TOUCH.",
+
+      "Imate pitanje? Želite da se učlanite? Javite nam se.": "Have a question? Want to become a member? Contact us.",
+
+      "INFORMACIJE": "INFORMATION",
+      "PRONAĐITE": "FIND",
+      "NAS.": "US.",
+
+      "Adresa": "Address",
+      "Telefon": "Phone",
+      "Broj telefona": "Phone Number",
+      "Email": "Email",
+      "Radno vreme": "Working Hours",
+      "Ponedeljak – Subota": "Monday – Saturday",
+
+      "MAPA": "MAP",
+
+      "POŠALJITE PORUKU": "SEND A MESSAGE",
+      "JAVITE": "GET IN",
+      "NAM SE.": "TOUCH.",
+
+      "Ime i prezime": "Full Name",
+      "Email adresa": "Email Address",
+      "Poruka": "Message",
+      "Pošalji poruku": "Send Message",
+
+      "Unesite ime i prezime": "Enter your full name",
+      "Unesite email adresu": "Enter your email address",
+      "Unesite broj telefona": "Enter your phone number",
+      "Unesite svoju poruku": "Enter your message",
+
+      "UPOZNAJTE NAS": "MEET US",
+      "O": "ABOUT",
+      "FITNESS KLUBU NATURAL": "FITNESS CLUB NATURAL",
+
+      "Mesto gde trening postaje način života.": "A place where training becomes a way of life.",
+
+      "NAŠA PRIČA": "OUR STORY",
+      "VIŠE OD": "MORE THAN",
+      "OBIČNOG FITNESS KLUBA.": "AN ORDINARY FITNESS CLUB.",
+
+      "Fitness klub Natural je moderan fitness klub namenjen svima koji žele da unaprede svoje fizičke sposobnosti, zdravlje i samopouzdanje.": "Fitness Club Natural is a modern fitness club for everyone who wants to improve their physical abilities, health and confidence.",
+
+      "Naš cilj je da svakom članu pružimo kvalitetne uslove za trening, savremenu opremu i podršku tokom celog procesa napretka.": "Our goal is to provide every member with quality training conditions, modern equipment and support throughout their progress.",
+
+      "Bez obzira da li tek počinjete da trenirate ili već imate iskustvo, Fitness klub Natural je mesto gde možete postaviti nove ciljeve i raditi na njihovom ostvarivanju.": "Whether you are just starting to train or already have experience, Fitness Club Natural is a place where you can set new goals and work towards achieving them.",
+
+      "GODINA POSVEĆENOSTI": "YEARS OF DEDICATION",
+      "VREDNOSTI": "VALUES",
+      "NAŠE VREDNOSTI": "OUR VALUES",
+
+      "ZAŠTO": "WHY",
+      "MI?": "US?",
+
+      "Disciplina": "Discipline",
+      "Verujemo da se pravi rezultati postižu doslednošću i svakodnevnim radom.": "We believe real results are achieved through consistency and daily work.",
+
+      "Napredak": "Progress",
+      "Svaki trening je prilika da postanete malo bolja verzija sebe.": "Every workout is an opportunity to become a slightly better version of yourself.",
+
+      "Zajednica": "Community",
+      "Gradimo pozitivno okruženje u kojem članovi motivišu jedni druge.": "We build a positive environment where members motivate each other.",
+
+      "TRENERI": "TRAINERS",
+      "NAŠ TIM": "OUR TEAM",
+      "UPOZNAJTE": "MEET",
+      "NAŠE TRENERE.": "OUR TRAINERS.",
+
+      "Marko Petrović": "Marko Petrović",
+      "Personalni trener": "Personal Trainer",
+      "Fitness trener": "Fitness Trainer",
+      "Group Fitness trener": "Group Fitness Trainer",
+
+      "PRETHODNI TRENER": "PREVIOUS TRAINER",
+      "SLEDEĆI TRENER": "NEXT TRAINER",
+      "Prethodni trener": "Previous Trainer",
+      "Sledeći trener": "Next Trainer",
+
+      "Marko je personalni trener specijalizovan za individualne treninge, razvoj snage i pravilnu tehniku izvođenja vežbi.": "Marko is a personal trainer specializing in individual workouts, strength development and proper exercise technique.",
+
+      "NAŠ RAD": "OUR WORK",
+      "POGLEDAJTE": "SEE",
+      "NAŠE USPEHE.": "OUR ACHIEVEMENTS.",
+
+      "NAŠI USPESI": "OUR ACHIEVEMENTS",
+      "NAŠE REZULTATE.": "OUR RESULTS.",
+
+      "Pogledajte uspehe, rezultate i atmosferu u našem fitness klubu.": "See the achievements, results and atmosphere at our fitness club.",
+
+      "Pogledajte na YouTube-u": "Watch on YouTube",
+
+      "Vaš pregledač ne podržava video.": "Your browser does not support the video.",
+
+      "Naše usluge": "Our Services",
+      "Cenovnik": "Price List",
+
+      "NAŠE USLUGE": "OUR SERVICES",
+      "TRENIRAJ": "TRAIN",
+      "PAMETNIJE.": "SMARTER.",
+      "Izaberi program koji odgovara tvojim ciljevima i započni svoj put ka boljoj formi.": "Choose a program that matches your goals and start your journey towards better fitness.",
+
+      "ŠTA NUDIMO": "WHAT WE OFFER",
+      "NAŠE": "OUR",
+      "USLUGE.": "SERVICES.",
+
+      "Individualni trening prilagođen tvojim ciljevima, kondiciji i nivou iskustva.": "Individual training tailored to your goals, fitness level and experience.",
+
+      "Treniraj u motivišućoj atmosferi uz stručno vođenje i dobar timski duh.": "Train in a motivating atmosphere with professional guidance and great team spirit.",
+
+      "Program treninga namenjen razvoju snage, kondicije i izgradnji zdravih navika.": "A training program designed to develop strength, fitness and healthy habits.",
+
+      "Osnovne smernice za pravilnu ishranu koje mogu pomoći u ostvarivanju tvojih ciljeva.": "Basic guidelines for proper nutrition that can help you achieve your goals.",
+
+      "CENOVNIK": "PRICE LIST",
+      "POGLEDAJ NAŠ": "VIEW OUR",
+      "POGLEDAJ NAŠ CENOVNIK.": "VIEW OUR PRICE LIST.",
+      "Preuzmite naš aktuelni cenovnik u TXT formatu.": "Download our current price list in TXT format.",
+      "Preuzmi cenovnik (TXT)": "Download Price List (TXT)",
+
+      "01 / PERSONALNI TRENING": "01 / PERSONAL TRAINING",
+      "TRENING": "TRAINING",
+      "PO TVOJOJ MERI.": "TAILORED FOR YOU.",
+      "Personalni trening predstavlja individualni rad sa trenerom koji program treninga prilagođava tvojim ciljevima, mogućnostima i nivou iskustva.": "Personal training is individual work with a trainer who adapts the training program to your goals, abilities and experience level.",
+
+      "02 / GRUPNI TRENINZI": "02 / GROUP TRAINING",
+      "ZAJEDNO.": "TOGETHER.",
+      "Grupni treninzi pružaju mogućnost da treniraš u pozitivnoj i motivišućoj atmosferi uz stručno vođenje trenera.": "Group training allows you to train in a positive and motivating atmosphere with professional guidance from a trainer.",
+
+      "03 / FITNESS PROGRAM": "03 / FITNESS PROGRAM",
+      "POSTANI": "BECOME",
+      "SNAŽNIJI.": "STRONGER.",
+      "Fitness program je namenjen razvoju snage, kondicije i pravilnih trening navika kroz planski pristup.": "The fitness program is designed to develop strength, fitness and proper training habits through a structured approach.",
+
+      "04 / ISHRANA": "04 / NUTRITION",
+      "ISHRANA": "NUTRITION",
+      "ZA CILJ.": "FOR YOUR GOAL.",
+      "Pravilna ishrana predstavlja važan deo napretka. Dobijate osnovne smernice koje mogu pomoći da lakše ostvarite svoje fitness ciljeve.": "Proper nutrition is an important part of progress. You receive basic guidelines that can help you achieve your fitness goals more easily.",
+
+      "SPREMAN SI?": "ARE YOU READY?",
+      "TVOJ CILJ.": "YOUR GOAL.",
+      "NAŠA PODRŠKA.": "OUR SUPPORT."
+    }
+  }
+}

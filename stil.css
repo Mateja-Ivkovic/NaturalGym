@@ -1,0 +1,1453 @@
+﻿/* =========================
+OSNOVNA PODEŠAVANJA
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0b0b0b;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =========================
+ZAGLAVLJE
+========================= */
+
+.zaglavlje {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    background-color: #0b0b0b;
+    border-bottom: 1px solid #252525;
+    position: relative;
+    z-index: 10;
+}
+
+.logo,
+.logo-podnozja {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+    .logo span,
+    .logo-podnozja span {
+        color: #e89b25;
+    }
+
+/* =========================
+NAVIGACIJA
+========================= */
+
+.navigacija {
+    display: flex;
+    gap: 35px;
+}
+
+    .navigacija a {
+        position: relative;
+        color: #dddddd;
+        font-size: 15px;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+        .navigacija a:hover,
+        .navigacija a.active {
+            color: #e89b25;
+        }
+
+        .navigacija a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 0;
+            height: 2px;
+            background-color: #e89b25;
+            transition: 0.3s;
+        }
+
+        .navigacija a:hover::after,
+        .navigacija a.active::after {
+            width: 100%;
+        }
+
+/* =========================
+DUGME ZAGLAVLJA
+========================= */
+
+.dugme-zaglavlja {
+    background-color: #e89b25;
+    color: #111111;
+    padding: 11px 22px;
+    font-size: 14px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+    .dugme-zaglavlja:hover {
+        background-color: #ffffff;
+        transform: translateY(-2px);
+    }
+
+/* =========================
+UVODNA SEKCIJA
+========================= */
+
+.uvodna-sekcija {
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    padding: 80px 7%;
+    position: relative;
+    overflow: hidden;
+    background-color: #0b0b0b;
+}
+
+/* =========================
+SADRŽAJ UVODNE SEKCIJE
+========================= */
+
+.sadrzaj-uvodne-sekcije {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.mali-naslov {
+    color: #e89b25;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.uvodna-sekcija h1 {
+    font-size: clamp(55px, 8vw, 105px);
+    line-height: 0.95;
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin-bottom: 30px;
+}
+
+    .uvodna-sekcija h1 span {
+        display: block;
+        color: #e89b25;
+    }
+
+.uvodni-tekst {
+    max-width: 550px;
+    color: #cccccc;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+/* =========================
+DUGMAD
+========================= */
+
+.uvodna-dugmad {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.dugme {
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.glavno-dugme {
+    background-color: #e89b25;
+    color: #111111;
+}
+
+    .glavno-dugme:hover {
+        background-color: #ffffff;
+        transform: translateY(-3px);
+    }
+
+.sporedno-dugme {
+    border: 1px solid #777777;
+    color: #ffffff;
+}
+
+    .sporedno-dugme:hover {
+        border-color: #e89b25;
+        color: #e89b25;
+        transform: translateY(-3px);
+    }
+
+/* =========================
+PREDNOSTI
+========================= */
+
+.prednosti {
+    padding: 110px 7%;
+    background-color: #111111;
+}
+
+.naslov-sekcije {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+    .naslov-sekcije p {
+        color: #e89b25;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+    }
+
+    .naslov-sekcije h2 {
+        font-size: clamp(35px, 5vw, 55px);
+        line-height: 1;
+    }
+
+        .naslov-sekcije h2 span {
+            color: #e89b25;
+        }
+
+/* =========================
+KARTICE PREDNOSTI
+========================= */
+
+.kontejner-prednosti {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+
+.kartica-prednosti {
+    flex: 1;
+    padding: 40px 30px;
+    background-color: #181818;
+    border: 1px solid #292929;
+    transition: 0.4s;
+}
+
+    .kartica-prednosti:hover {
+        transform: translateY(-10px);
+        border-color: #e89b25;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    }
+
+.oznaka-prednosti {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    background-color: #e89b25;
+    color: #111111;
+    font-weight: 900;
+}
+
+.kartica-prednosti h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.kartica-prednosti p {
+    color: #aaaaaa;
+    font-size: 15px;
+}
+
+/* =========================
+POZIV NA AKCIJU
+========================= */
+
+.poziv-na-akciju {
+    padding: 120px 7%;
+    text-align: center;
+    background-color: #e89b25;
+    color: #111111;
+}
+
+    .poziv-na-akciju p {
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
+    .poziv-na-akciju h2 {
+        font-size: clamp(35px, 6vw, 65px);
+        line-height: 1;
+        margin-bottom: 35px;
+    }
+
+        .poziv-na-akciju h2 span {
+            display: block;
+            color: #ffffff;
+        }
+
+    .poziv-na-akciju .glavno-dugme {
+        background-color: #111111;
+        color: #ffffff;
+    }
+
+        .poziv-na-akciju .glavno-dugme:hover {
+            background-color: #ffffff;
+            color: #111111;
+        }
+
+/* =========================
+PODNOŽJE
+========================= */
+
+.podnozje {
+    padding: 55px 7%;
+    text-align: center;
+    background-color: #080808;
+}
+
+.logo-podnozja {
+    margin-bottom: 10px;
+}
+
+.podnozje > p {
+    color: #888888;
+    margin-bottom: 25px;
+}
+
+.linkovi-podnozja {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+    .linkovi-podnozja a {
+        color: #aaaaaa;
+        transition: 0.3s;
+    }
+
+        .linkovi-podnozja a:hover {
+            color: #e89b25;
+        }
+
+.podnozje .autorska-prava {
+    color: #555555;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* =========================
+NASLOV STRANICE
+========================= */
+
+.naslov-stranice {
+    width: 100%;
+    padding: 100px 7%;
+    text-align: center;
+    background-color: #111111;
+}
+
+    .naslov-stranice p:first-child {
+        color: #e89b25;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
+    .naslov-stranice h1 {
+        font-size: clamp(45px, 7vw, 80px);
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+
+        .naslov-stranice h1 span {
+            color: #e89b25;
+        }
+
+.opis-stranice {
+    color: #999999;
+    font-size: 18px;
+}
+
+/* =========================
+NAŠA PRIČA
+========================= */
+
+.sekcija-o-nama {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 110px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: #0b0b0b;
+}
+
+.tekst-o-nama {
+    flex: 1;
+    max-width: 700px;
+}
+
+.oznaka-sekcije {
+    color: #e89b25;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.tekst-o-nama h2 {
+    font-size: clamp(35px, 5vw, 60px);
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+    .tekst-o-nama h2 span {
+        color: #e89b25;
+    }
+
+.tekst-o-nama p:not(.oznaka-sekcije) {
+    color: #aaaaaa;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* =========================
+BROJ 08
+========================= */
+
+.kutija-o-nama {
+    width: 300px;
+    min-height: 300px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e89b25;
+    color: #111111;
+    text-align: center;
+}
+
+.broj-o-nama {
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.kutija-o-nama p {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* =========================
+VREDNOSTI
+========================= */
+
+.sekcija-vrednosti {
+    padding: 110px 7%;
+    background-color: #111111;
+}
+
+.sadrzaj-vrednosti {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+
+.kartica-vrednosti {
+    flex: 1;
+    padding: 40px 30px;
+    background-color: #181818;
+    border: 1px solid #292929;
+    transition: 0.4s;
+}
+
+    .kartica-vrednosti:hover {
+        transform: translateY(-8px);
+        border-color: #e89b25;
+    }
+
+    .kartica-vrednosti > span {
+        display: block;
+        color: #e89b25;
+        font-size: 14px;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+
+    .kartica-vrednosti h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .kartica-vrednosti p {
+        color: #999999;
+    }
+
+/* ==================================================
+TRENERI
+================================================== */
+
+.sekcija-trenera {
+    width: 100%;
+    padding: 110px 20px;
+    background-color: #0b0b0b;
+    text-align: center;
+}
+
+/* ==================================================
+CENTRALNI SADRŽAJ TRENERA
+================================================== */
+
+.sadrzaj-trenera {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    .sadrzaj-trenera h3 {
+        width: 100%;
+        margin: 0 0 5px 0;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+/* ==================================================
+POZICIJA TRENERA
+================================================== */
+
+.pozicija-trenera {
+    width: 100%;
+    margin: 0 0 25px 0;
+    color: #e89b25;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ==================================================
+SLIKA + STRELICE
+================================================== */
+
+.okvir-slike-trenera {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto 25px auto;
+}
+
+/* ==================================================
+SLIKA
+================================================== */
+
+.slika-trenera {
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #202020;
+}
+
+    .slika-trenera img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+        .slika-trenera img:hover {
+            transform: scale(1.03);
+        }
+
+/* ==================================================
+STRELICE
+================================================== */
+
+.dugme-klizaca {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid #444444;
+    background-color: #181818;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .dugme-klizaca:hover {
+        background-color: #e89b25;
+        color: #111111;
+        border-color: #e89b25;
+        transform: scale(1.05);
+    }
+
+/* ==================================================
+OPIS TRENERA
+================================================== */
+
+.opis-trenera {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    color: #aaaaaa;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* ==================================================
+VIDEO I NAŠI USPESI
+================================================== */
+
+.sekcija-videa {
+    width: 100%;
+    padding: 110px 7%;
+    background-color: #111111;
+}
+
+.sadrzaj-videa {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+}
+
+/* ==================================================
+VIDEO LEVO
+================================================== */
+
+.lokalni-video {
+    width: 60%;
+    flex-shrink: 0;
+    background-color: #181818;
+    border: 1px solid #292929;
+    overflow: hidden;
+}
+
+    .lokalni-video video {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        display: block;
+        object-fit: cover;
+    }
+
+/* ==================================================
+YOUTUBE DESNO
+================================================== */
+
+.informacije-o-videu {
+    flex: 1;
+    text-align: left;
+}
+
+    .informacije-o-videu .oznaka-sekcije {
+        margin-bottom: 15px;
+    }
+
+    .informacije-o-videu h3 {
+        font-size: clamp(30px, 4vw, 45px);
+        line-height: 1;
+        margin-bottom: 25px;
+    }
+
+        .informacije-o-videu h3 span {
+            display: block;
+            color: #e89b25;
+        }
+
+    .informacije-o-videu > p:not(.oznaka-sekcije) {
+        color: #aaaaaa;
+        font-size: 16px;
+        margin-bottom: 30px;
+        line-height: 1.7;
+    }
+
+.dugme-videa {
+    display: inline-block;
+}
+
+/* ==================================================
+KONTAKT
+================================================== */
+
+.kontakt-sekcija {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 110px 7%;
+    display: flex;
+    gap: 80px;
+    background-color: #0b0b0b;
+}
+
+.kontakt-informacije,
+.sadrzaj-kontakt-forme {
+    flex: 1;
+}
+
+    .kontakt-informacije h2,
+    .sadrzaj-kontakt-forme h2 {
+        font-size: clamp(35px, 5vw, 55px);
+        line-height: 1;
+        margin-bottom: 45px;
+    }
+
+        .kontakt-informacije h2 span,
+        .sadrzaj-kontakt-forme h2 span {
+            color: #e89b25;
+        }
+
+.stavka-kontakta {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.oznaka-kontakta {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e89b25;
+    color: #111111;
+    font-weight: 900;
+}
+
+.stavka-kontakta h3 {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.stavka-kontakta p {
+    color: #aaaaaa;
+    font-size: 15px;
+}
+
+/* ==================================================
+GOOGLE MAPA
+================================================== */
+
+.kontakt-mapa {
+    width: 100%;
+    height: 320px;
+    margin-top: 35px;
+    overflow: hidden;
+    border: 1px solid #292929;
+}
+
+    .kontakt-mapa iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+    }
+
+/* ==================================================
+KONTAKT FORMA
+================================================== */
+
+.sadrzaj-kontakt-forme {
+    padding: 40px;
+    background-color: #181818;
+    border: 1px solid #292929;
+}
+
+    .sadrzaj-kontakt-forme h2 {
+        margin-bottom: 35px;
+    }
+
+.grupa-forme {
+    margin-bottom: 20px;
+}
+
+    .grupa-forme label {
+        display: block;
+        margin-bottom: 8px;
+        color: #dddddd;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .grupa-forme input,
+    .grupa-forme textarea {
+        width: 100%;
+        padding: 14px 15px;
+        border: 1px solid #444444;
+        background-color: #111111;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    .grupa-forme textarea {
+        resize: vertical;
+    }
+
+        .grupa-forme input:focus,
+        .grupa-forme textarea:focus {
+            border-color: #e89b25;
+        }
+
+        .grupa-forme input::placeholder,
+        .grupa-forme textarea::placeholder {
+            color: #777777;
+        }
+
+.sadrzaj-kontakt-forme .glavno-dugme {
+    display: block;
+    margin: 0 auto;
+}
+
+.poruka-forme {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ==================================================
+PADAJUĆI MENI
+================================================== */
+
+.padajuci-meni {
+    position: relative;
+}
+
+.link-padajuceg-menija {
+    position: relative;
+    color: #dddddd;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.padajuci-meni:hover .link-padajuceg-menija {
+    color: #e89b25;
+}
+
+.sadrzaj-padajuceg-menija {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    border: 1px solid #292929;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 100;
+}
+
+    .sadrzaj-padajuceg-menija a {
+        display: block;
+        padding: 13px 18px;
+        color: #dddddd;
+        font-size: 14px;
+        font-weight: 600;
+        border-bottom: 1px solid #292929;
+        transition: 0.3s;
+    }
+
+        .sadrzaj-padajuceg-menija a:last-child {
+            border-bottom: none;
+        }
+
+        .sadrzaj-padajuceg-menija a:hover {
+            background-color: #e89b25;
+            color: #111111;
+        }
+
+.padajuci-meni:hover .sadrzaj-padajuceg-menija {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* ==================================================
+PRISTUPAČNOST
+================================================== */
+
+.kontrole-pristupacnosti {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+    .kontrole-pristupacnosti button {
+        padding: 8px 12px;
+        border: 1px solid #444444;
+        background-color: #181818;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+
+        .kontrole-pristupacnosti button:hover {
+            background-color: #e89b25;
+            color: #111111;
+            border-color: #e89b25;
+        }
+
+/* ==================================================
+SVETLA TEMA
+================================================== */
+
+body.svetla-tema {
+    background-color: #f5f5f5;
+    color: #111111;
+}
+
+    /* ZAGLAVLJE */
+
+    body.svetla-tema .zaglavlje {
+        background-color: #ffffff;
+        border-bottom-color: #dddddd;
+    }
+
+    body.svetla-tema .logo,
+    body.svetla-tema .logo-podnozja {
+        color: #111111;
+    }
+
+    body.svetla-tema .navigacija a {
+        color: #333333;
+    }
+
+        body.svetla-tema .navigacija a:hover,
+        body.svetla-tema .navigacija a.active,
+        body.svetla-tema .padajuci-meni:hover .link-padajuceg-menija {
+            color: #d17d00;
+        }
+
+    /* UVODNA SEKCIJA */
+
+    body.svetla-tema .uvodna-sekcija {
+        background-color: #f5f5f5;
+    }
+
+        body.svetla-tema .uvodna-sekcija h1 {
+            color: #111111;
+        }
+
+    body.svetla-tema .uvodni-tekst {
+        color: #555555;
+    }
+
+    body.svetla-tema .sporedno-dugme {
+        color: #111111;
+        border-color: #777777;
+    }
+
+    /* NASLOVI STRANICA */
+
+    body.svetla-tema .naslov-stranice {
+        background-color: #eeeeee;
+    }
+
+    body.svetla-tema .opis-stranice {
+        color: #555555;
+    }
+
+    /* PREDNOSTI */
+
+    body.svetla-tema .prednosti {
+        background-color: #eeeeee;
+    }
+
+    body.svetla-tema .kartica-prednosti {
+        background-color: #ffffff;
+        border-color: #dddddd;
+    }
+
+        body.svetla-tema .kartica-prednosti p {
+            color: #555555;
+        }
+
+    /* O NAMA */
+
+    body.svetla-tema .sekcija-o-nama {
+        background-color: #f5f5f5;
+    }
+
+    body.svetla-tema .tekst-o-nama p {
+        color: #555555;
+    }
+
+    body.svetla-tema .sekcija-vrednosti {
+        background-color: #eeeeee;
+    }
+
+    body.svetla-tema .kartica-vrednosti {
+        background-color: #ffffff;
+        border-color: #dddddd;
+    }
+
+        body.svetla-tema .kartica-vrednosti p {
+            color: #555555;
+        }
+
+    /* TRENERI */
+
+    body.svetla-tema .sekcija-trenera {
+        background-color: #f5f5f5;
+    }
+
+    body.svetla-tema .opis-trenera {
+        color: #555555;
+    }
+
+    body.svetla-tema .slika-trenera {
+        background-color: #eeeeee;
+    }
+
+    body.svetla-tema .dugme-klizaca {
+        background-color: #ffffff;
+        color: #111111;
+        border-color: #cccccc;
+    }
+
+    /* KONTAKT */
+
+    body.svetla-tema .kontakt-sekcija {
+        background-color: #f5f5f5;
+    }
+
+    body.svetla-tema .stavka-kontakta p {
+        color: #555555;
+    }
+
+    body.svetla-tema .sadrzaj-kontakt-forme {
+        background-color: #ffffff;
+        border-color: #dddddd;
+    }
+
+    body.svetla-tema .grupa-forme label {
+        color: #333333;
+    }
+
+    body.svetla-tema .grupa-forme input,
+    body.svetla-tema .grupa-forme textarea {
+        background-color: #f8f8f8;
+        color: #111111;
+        border-color: #cccccc;
+    }
+
+        body.svetla-tema .grupa-forme input::placeholder,
+        body.svetla-tema .grupa-forme textarea::placeholder {
+            color: #888888;
+        }
+
+    /* PADAJUĆI MENI */
+
+    body.svetla-tema .sadrzaj-padajuceg-menija {
+        background-color: #ffffff;
+        border-color: #dddddd;
+    }
+
+        body.svetla-tema .sadrzaj-padajuceg-menija a {
+            color: #333333;
+            border-color: #dddddd;
+        }
+
+            body.svetla-tema .sadrzaj-padajuceg-menija a:hover {
+                background-color: #e89b25;
+                color: #111111;
+            }
+
+    /* PRISTUPAČNOST */
+
+    body.svetla-tema .kontrole-pristupacnosti button {
+        background-color: #ffffff;
+        color: #111111;
+        border-color: #cccccc;
+    }
+
+    /* JEZIK */
+
+    body.svetla-tema .dugme-jezika {
+        border-color: #000000;
+        color: #000000;
+    }
+
+        body.svetla-tema .dugme-jezika:hover {
+            background: #000000;
+            color: #ffffff;
+        }
+
+    /* PODNOŽJE */
+
+    body.svetla-tema .podnozje {
+        background-color: #eeeeee;
+    }
+
+    body.svetla-tema .linkovi-podnozja a {
+        color: #555555;
+    }
+
+    body.svetla-tema .podnozje > p {
+        color: #666666;
+    }
+
+    body.svetla-tema .podnozje .autorska-prava {
+        color: #777777;
+    }
+
+    /* POZIV NA AKCIJU */
+
+    body.svetla-tema .poziv-na-akciju {
+        background-color: #e89b25;
+        color: #111111;
+    }
+
+/* ==================================================
+VEĆI FONT
+================================================== */
+
+body.veliki-font {
+    font-size: 18px;
+}
+
+    body.veliki-font p,
+    body.veliki-font a,
+    body.veliki-font label,
+    body.veliki-font input,
+    body.veliki-font textarea,
+    body.veliki-font button,
+    body.veliki-font li {
+        font-size: 18px;
+    }
+
+    body.veliki-font h1 {
+        font-size: clamp(50px, 8vw, 90px);
+    }
+
+    body.veliki-font h2 {
+        font-size: clamp(40px, 6vw, 65px);
+    }
+
+    body.veliki-font h3 {
+        font-size: 24px;
+    }
+
+/* ==================================================
+NORMALAN FONT
+================================================== */
+
+body:not(.veliki-font) {
+    font-size: 16px;
+}
+
+/* ==================================================
+TABLET
+================================================== */
+
+@media (max-width: 900px) {
+
+    .zaglavlje {
+        padding: 0 4%;
+    }
+
+    .navigacija {
+        gap: 18px;
+    }
+
+    .dugme-zaglavlja {
+        display: none;
+    }
+
+    .kontejner-prednosti,
+    .sadrzaj-vrednosti {
+        flex-direction: column;
+    }
+
+    .sekcija-o-nama {
+        padding: 80px 5%;
+        gap: 50px;
+    }
+
+    .kutija-o-nama {
+        width: 250px;
+    }
+
+    .sadrzaj-trenera {
+        max-width: 600px;
+    }
+
+    .okvir-slike-trenera {
+        gap: 20px;
+    }
+
+    .slika-trenera {
+        width: 400px;
+        height: 400px;
+    }
+
+    .sadrzaj-videa {
+        gap: 35px;
+    }
+
+    .lokalni-video {
+        width: 55%;
+    }
+
+    .informacije-o-videu h3 {
+        font-size: 32px;
+    }
+
+    .kontakt-sekcija {
+        padding: 80px 5%;
+        gap: 50px;
+    }
+}
+
+/* ==================================================
+MOBILNI
+================================================== */
+
+@media (max-width: 650px) {
+
+    .zaglavlje {
+        min-height: auto;
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navigacija {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .uvodna-sekcija {
+        min-height: 600px;
+        padding: 70px 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+        .uvodna-sekcija h1 {
+            font-size: 58px;
+            letter-spacing: -2px;
+        }
+
+    .uvodni-tekst {
+        font-size: 16px;
+    }
+
+    .uvodna-dugmad {
+        justify-content: center;
+    }
+
+    .prednosti,
+    .sekcija-vrednosti,
+    .sekcija-trenera {
+        padding: 80px 20px;
+    }
+
+    .poziv-na-akciju {
+        padding: 90px 20px;
+    }
+
+    .linkovi-podnozja {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .sekcija-o-nama {
+        padding: 80px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kutija-o-nama {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .sadrzaj-trenera {
+        width: 100%;
+        max-width: 100%;
+    }
+
+        .sadrzaj-trenera h3 {
+            font-size: 25px;
+        }
+
+    .okvir-slike-trenera {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .slika-trenera {
+        width: calc(100% - 100px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+
+    .dugme-klizaca {
+        width: 42px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    .opis-trenera {
+        max-width: 90%;
+        font-size: 14px;
+    }
+
+    .sekcija-videa {
+        padding: 80px 20px;
+    }
+
+    .sadrzaj-videa {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .lokalni-video {
+        width: 100%;
+    }
+
+    .informacije-o-videu {
+        width: 100%;
+        text-align: center;
+    }
+
+        .informacije-o-videu .oznaka-sekcije {
+            text-align: center;
+        }
+
+        .informacije-o-videu h3 {
+            font-size: 32px;
+        }
+
+    .kontakt-sekcija {
+        padding: 80px 20px;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .sadrzaj-kontakt-forme {
+        padding: 25px 20px;
+    }
+
+    .kontakt-mapa {
+        height: 280px;
+    }
+}
+
+/* ==================================================
+JEZIK - SR / EN
+================================================== */
+
+#kontrole-jezika {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 15px;
+}
+
+.dugme-jezika {
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    padding: 5px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .dugme-jezika:hover {
+        background: #ffffff;
+        color: #000000;
+    }
+
+/* ==================================================
+LOGO
+================================================== */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+    .logo img {
+        width: 42px;
+        height: 42px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .logo span {
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .logo strong {
+        color: #8bcf3f;
+    }

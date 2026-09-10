@@ -1,0 +1,694 @@
+﻿<!DOCTYPE html>
+
+<html lang="sr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Fitnes klub Natural - personalni treninzi, grupni treninzi, fitness programi i planovi ishrane.">
+
+    <meta name="keywords"
+          content="Fitnes klub Natural, fitness, personalni trening, grupni trening, plan ishrane">
+
+    <meta name="author" content="Mateja Ivković">
+
+    <title>Fitnes klub Natural | Usluge</title>
+
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script src="usluge.js" defer></script>
+
+    <style>
+        #dugme-tema,
+        #povecaj-font,
+        #smanji-font {
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        #dugme-tema {
+            min-width: 125px;
+        }
+
+        #kontrole-jezika {
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+
+            #kontrole-jezika .dugme-jezika {
+                border: 1px solid #ffc107;
+                background: transparent;
+                color: #ffc107;
+                border-radius: 0.25rem;
+                padding: 0.25rem 0.5rem;
+                font-size: 0.875rem;
+                line-height: 1.5;
+                white-space: nowrap;
+            }
+
+                #kontrole-jezika .dugme-jezika.active,
+                #kontrole-jezika .dugme-jezika:hover {
+                    background: #ffc107;
+                    border-color: #ffc107;
+                    color: #212529;
+                }
+    </style>
+        </head >
+
+        <body class="bg-dark text-white" >
+        <!-- ZAGLAVLJE -->
+        <header class="bg-black border-bottom border-secondary" >
+
+        <div class="container py-3" >
+
+        <div class="row align-items-center" >
+
+        <div class="col-md-3 text-center text-md-start" >
+
+        <a href="index.html"
+        class="d-inline-flex align-items-center text-white text-decoration-none fw-bold fs-4" >
+
+        <img src="logo.png"
+        alt="Logo Fitnes kluba Natural"
+        class="rounded-circle me-2"
+        width="42"
+        height="42" >
+
+        <span >
+        FITNESS <span class="text-success" > NATURAL</span >
+        </span >
+
+        </a >
+
+        </div >
+
+
+        <div class="col-md-6" >
+
+        <nav class="nav justify-content-center align-items-center" >
+
+        <a href="index.html"
+        class="nav-link text-light" >
+
+        Početna
+
+        </a >
+
+
+        <a href="onama.html"
+        class="nav-link text-light" >
+
+        O nama
+
+        </a >
+
+
+        <div class="dropdown" >
+
+        <a href="usluge.html"
+        class="nav-link text-warning fw-bold dropdown-toggle"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false" >
+
+        Usluge
+
+        </a >
+
+
+        <ul class="dropdown-menu dropdown-menu-dark" >
+
+        <li >
+        <a class="dropdown-item"
+        href="#personalni" >
+
+        Personalni trening
+
+        </a >
+        </li >
+
+
+        <li >
+        <a class="dropdown-item"
+        href="#grupni" >
+
+        Grupni treninzi
+
+        </a >
+        </li >
+
+
+        <li >
+        <a class="dropdown-item"
+        href="#fitness" >
+
+        Fitness program
+
+        </a >
+        </li >
+
+
+        <li >
+        <a class="dropdown-item"
+        href="#ishrana" >
+
+        Plan ishrane
+
+        </a >
+        </li >
+
+        </ul >
+
+        </div >
+
+
+        <a href="kontakt.html"
+        class="nav-link text-light" >
+
+        Kontakt
+
+        </a >
+
+        </nav >
+
+        </div >
+        <!-- PRISTUPAČNOST -->
+        <div class="col-md-3 text-center text-md-end" >
+
+            <div class="d-flex flex-row justify-content-center justify-content-md-end align-items-center gap-2">
+
+
+                <div id="kontrole-jezika"
+                     class="d-flex align-items-center gap-1 mb-0"
+                     aria-label="Izbor jezika">
+                </div>
+
+                <button type="button"
+                        id="dugme-tema"
+                        class="btn btn-outline-warning btn-sm">
+                    ☀ Svetla tema
+                </button>
+
+                <button type="button"
+                        id="povecaj-font"
+                        class="btn btn-outline-warning btn-sm">
+                    A +
+                </button>
+
+                <button type="button"
+                        id="smanji-font"
+                        class="btn btn-outline-warning btn-sm">
+                    A-
+                </button>
+
+
+
+            </div>
+
+        </div >
+
+        </div >
+
+        </header >
+        <!-- NASLOV -->
+        <section class="bg-dark text-center py-5" >
+
+        <div class="container py-5" >
+
+        <p class="text-warning fw-bold mb-3" >
+
+        NAŠE USLUGE
+
+        </p >
+
+
+        <h1 class="display-3 fw-bold" >
+
+        TRENIRAJ
+        <span class="text-warning" > PAMETNIJE.</span >
+
+        </h1 >
+
+
+        <p class="lead text-secondary mx-auto"
+        style="max-width: 700px;" >
+
+        Izaberi program koji odgovara tvojim ciljevima
+        i započni svoj put ka boljoj formi.
+
+        </p >
+
+        </div >
+
+        </section >
+        <!-- USLUGE -->
+        <section class="bg-black py-5" >
+
+        <div class="container py-5" >
+
+        <div class="text-center mb-5" >
+
+        <p class="text-warning fw-bold mb-2" >
+
+        ŠTA NUDIMO
+
+        </p >
+
+
+        <h2 class="display-5 fw-bold" >
+
+        NAŠE
+        <span class="text-warning" > USLUGE.</span >
+
+        </h2 >
+
+        </div >
+
+
+        <div class="row g-4" >
+        <!-- 01 -->
+        <div class="col-12 col-md-6 col-xl-3" >
+
+        <div class="card h-100 bg-dark text-white border-secondary" >
+
+        <div class="card-body p-4 text-center d-flex flex-column" >
+
+        <div class="text-warning fw-bold fs-5 mb-3" >
+        01
+        </div >
+
+
+        <h3 class="fw-bold mb-4" >
+        Personalni trening
+        </h3 >
+
+
+        <p class="text-secondary mb-4" >
+
+        Individualni trening prilagođen tvojim
+        ciljevima, kondiciji i nivou iskustva.
+
+        </p >
+
+
+        <a href="#personalni"
+        class="btn btn-warning fw-bold mt-auto" >
+
+        Saznaj više
+
+        </a >
+
+        </div >
+
+        </div >
+
+        </div >
+        <!-- 02 -->
+        <div class="col-12 col-md-6 col-xl-3" >
+
+        <div class="card h-100 bg-dark text-white border-secondary" >
+
+        <div class="card-body p-4 text-center d-flex flex-column" >
+
+        <div class="text-warning fw-bold fs-5 mb-3" >
+        02
+        </div >
+
+
+        <h3 class="fw-bold mb-4" >
+        Grupni treninzi
+        </h3 >
+
+
+        <p class="text-secondary mb-4" >
+
+        Treniraj u motivišućoj atmosferi uz stručno
+        vođenje i dobar timski duh.
+
+        </p >
+
+
+        <a href="#grupni"
+        class="btn btn-warning fw-bold mt-auto" >
+
+        Saznaj više
+
+        </a >
+
+        </div >
+
+        </div >
+
+        </div >
+        <!-- 03 -->
+        <div class="col-12 col-md-6 col-xl-3" >
+
+        <div class="card h-100 bg-dark text-white border-secondary" >
+
+        <div class="card-body p-4 text-center d-flex flex-column" >
+
+        <div class="text-warning fw-bold fs-5 mb-3" >
+        03
+        </div >
+
+
+        <h3 class="fw-bold mb-4" >
+        Fitness program
+        </h3 >
+
+
+        <p class="text-secondary mb-4" >
+
+        Program treninga namenjen razvoju snage,
+        kondicije i izgradnji zdravih navika.
+
+        </p >
+
+
+        <a href="#fitness"
+        class="btn btn-warning fw-bold mt-auto" >
+
+        Saznaj više
+
+        </a >
+
+        </div >
+
+        </div >
+
+        </div >
+        <!-- 04 -->
+        <div class="col-12 col-md-6 col-xl-3" >
+
+        <div class="card h-100 bg-dark text-white border-secondary" >
+
+        <div class="card-body p-4 text-center d-flex flex-column" >
+
+        <div class="text-warning fw-bold fs-5 mb-3" >
+        04
+        </div >
+
+
+        <h3 class="fw-bold mb-4" >
+        Plan ishrane
+        </h3 >
+
+
+        <p class="text-secondary mb-4" >
+
+        Osnovne smernice za pravilnu ishranu koje
+        mogu pomoći u ostvarivanju tvojih ciljeva.
+
+        </p >
+
+
+        <a href="#ishrana"
+        class="btn btn-warning fw-bold mt-auto" >
+
+        Saznaj više
+
+        </a >
+
+        </div >
+
+        </div >
+
+        </div >
+
+        </div >
+
+        </div >
+
+        </section >
+        <!-- CENOVNIK -->
+        <section class="bg-black py-5" >
+
+        <div class="container py-5 text-center" >
+
+        <p class="text-warning fw-bold mb-2" >
+        CENOVNIK
+        </p >
+
+
+        <h2 class="display-5 fw-bold mb-4" >
+
+        POGLEDAJ NAŠ
+        <span class="text-warning" > CENOVNIK.</span >
+
+        </h2 >
+
+
+
+
+
+        <a href="cenovnik.pdf"
+        class="btn btn-warning btn-lg fw-bold"
+        target="_blank" >
+
+        Pogledaj cenovnik (PDF)
+
+        </a >
+
+        </div >
+
+        </section >
+        <!-- DETALJI -->
+        <section class="bg-dark py-5" >
+
+        <div class="container py-5" >
+
+
+        <div id="personalni"
+        class="text-center mb-5" >
+
+        <p class="text-warning fw-bold" >
+        01 / PERSONALNI TRENING
+        </p >
+
+
+        <h2 class="fw-bold" >
+
+        TRENING
+        <span class="text-warning" >
+        PO TVOJOJ MERI.
+        </span >
+
+        </h2 >
+
+
+        <p class="text-secondary mx-auto"
+        style="max-width: 750px;" >
+
+        Personalni trening predstavlja individualni rad sa
+        trenerom koji program treninga prilagođava tvojim
+        ciljevima, mogućnostima i nivou iskustva.
+
+        </p >
+
+        </div >
+
+
+
+        <div id="grupni"
+        class="text-center mb-5" >
+
+        <p class="text-warning fw-bold" >
+        02 / GRUPNI TRENINZI
+        </p >
+
+
+        <h2 class="fw-bold" >
+
+        TRENIRAJ
+        <span class="text-warning" >
+        ZAJEDNO.
+        </span >
+
+        </h2 >
+
+
+        <p class="text-secondary mx-auto"
+        style="max-width: 750px;" >
+
+        Grupni treninzi pružaju mogućnost da treniraš u
+        pozitivnoj i motivišućoj atmosferi uz stručno
+        vođenje trenera.
+
+        </p >
+
+        </div >
+
+
+
+        <div id="fitness"
+        class="text-center mb-5" >
+
+        <p class="text-warning fw-bold" >
+        03 / FITNESS PROGRAM
+        </p >
+
+
+        <h2 class="fw-bold" >
+
+        POSTANI
+        <span class="text-warning" >
+        SNAŽNIJI.
+        </span >
+
+        </h2 >
+
+
+        <p class="text-secondary mx-auto"
+        style="max-width: 750px;" >
+
+        Fitness program je namenjen razvoju snage,
+        kondicije i pravilnih trening navika kroz
+        planski pristup.
+
+        </p >
+
+        </div >
+
+
+
+        <div id="ishrana"
+        class="text-center" >
+
+        <p class="text-warning fw-bold" >
+        04 / ISHRANA
+        </p >
+
+
+        <h2 class="fw-bold" >
+
+        ISHRANA
+        <span class="text-warning" >
+        ZA CILJ.
+        </span >
+
+        </h2 >
+
+
+        <p class="text-secondary mx-auto"
+        style="max-width: 750px;" >
+
+        Pravilna ishrana predstavlja važan deo napretka.
+        Dobijate osnovne smernice koje mogu pomoći da
+        lakše ostvarite svoje fitness ciljeve.
+
+        </p >
+
+        </div >
+
+        </div >
+
+        </section >
+        <!-- CTA -->
+        <section class="bg-warning text-dark text-center py-5" >
+
+        <div class="container py-5" >
+
+        <p class="fw-bold" >
+        SPREMAN SI?
+        </p >
+
+
+        <h2 class="display-4 fw-bold mb-4" >
+
+        TVOJ CILJ.
+
+        <span class="d-block text-white" >
+        NAŠA PODRŠKA.
+        </span >
+
+        </h2 >
+
+
+        <a href="kontakt.html"
+        class="btn btn-dark btn-lg fw-bold" >
+
+        Kontaktiraj nas
+
+        </a >
+
+        </div >
+
+        </section >
+        <!-- PODNOŽJE -->
+        <footer class="bg-black text-center py-5" >
+
+        <div class="container" >
+
+        <div class="fs-4 fw-bold mb-2" >
+
+        FITNES KLUB
+        <span class="text-warning" > NATURAL</span >
+
+        </div >
+
+
+        <p class="text-secondary" >
+        Izgradi snagu. Unapredi sebe.
+        </p >
+
+
+        <nav class="nav justify-content-center mb-4" >
+
+        <a href="index.html"
+        class="nav-link text-secondary" >
+
+        Početna
+
+        </a >
+
+
+        <a href="onama.html"
+        class="nav-link text-secondary" >
+
+        O nama
+
+        </a >
+
+
+        <a href="usluge.html"
+        class="nav-link text-warning" >
+
+        Usluge
+
+        </a >
+
+
+        <a href="kontakt.html"
+        class="nav-link text-secondary" >
+
+        Kontakt
+
+        </a >
+
+        </nav >
+
+
+        <p class="text-secondary small mb-0" >
+
+        © 2026 Fitnes klub Natural. Sva prava zadržana.
+
+        </p >
+
+        </div >
+
+        </footer >
+
+
+        <script src="prevod.js" defer > </script >
+
+        </body >
+
+        </html >

@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Natural-Gym", "Natural-Gym", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		kontakt.html = kontakt.html
+		onama.html = onama.html
+		usluge.html = usluge.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{185CB276-E0D6-4EFF-95F9-7AC5981690BA}"
+	ProjectSection(SolutionItems) = preProject
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{C060295E-E030-429F-A2DC-BB1EFF5F36C3}"
+	ProjectSection(SolutionItems) = preProject
+		jQuery.js = jQuery.js
+		prevod.js = prevod.js
+		script.js = script.js
+		script2.js = script2.js
+		usluge.js = usluge.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{298A26D9-4129-4154-A381-4ABCA0DC0EC5}"
+	ProjectSection(SolutionItems) = preProject
+		logo.png = logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "video", "video", "{4F522CB2-EE79-4A96-98EB-990DAC22A4DC}"
+	ProjectSection(SolutionItems) = preProject
+		video.mp4 = video.mp4
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dokumenti", "dokumenti", "{A3B70335-528C-42F6-B148-97DE8A9CE13C}"
+	ProjectSection(SolutionItems) = preProject
+		dokumenti\cenovnik.txt = dokumenti\cenovnik.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scss", "scss", "{900CBC47-C1C2-49ED-A8DD-67381DC0F96C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "json", "json", "{56E849A4-3AC6-46FB-947E-FB6AE5CF71D3}"
+	ProjectSection(SolutionItems) = preProject
+		prevod.json = prevod.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{8E3DD6B9-B79F-454E-B23D-3E25180E1FD2}"
+	ProjectSection(SolutionItems) = preProject
+		bootstrap\bootstrap.bundle.min.js = bootstrap\bootstrap.bundle.min.js
+		bootstrap\bootstrap.min.css = bootstrap\bootstrap.min.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{185CB276-E0D6-4EFF-95F9-7AC5981690BA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C060295E-E030-429F-A2DC-BB1EFF5F36C3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{298A26D9-4129-4154-A381-4ABCA0DC0EC5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4F522CB2-EE79-4A96-98EB-990DAC22A4DC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A3B70335-528C-42F6-B148-97DE8A9CE13C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{900CBC47-C1C2-49ED-A8DD-67381DC0F96C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{56E849A4-3AC6-46FB-947E-FB6AE5CF71D3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8E3DD6B9-B79F-454E-B23D-3E25180E1FD2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0226AD58-3FCB-4986-8941-A915ACD0B0F4}
+	EndGlobalSection
+EndGlobal
