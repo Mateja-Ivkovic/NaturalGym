@@ -1,6 +1,41 @@
 ﻿/* =========================
 OSNOVNA PODEŠAVANJA
 ========================= */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/static/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/static/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/static/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/static/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+}
 
 * {
     margin: 0;
@@ -23,6 +58,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 
 /* =========================
 ZAGLAVLJE
